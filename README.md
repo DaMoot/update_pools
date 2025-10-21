@@ -8,13 +8,14 @@ Bulk update the 'pools' key inside Verus ccminer config across multiple hosts us
 REQUIRES (on target system): telnet
 REQUIRES (on system running script): python and paramiko
 
-Usage commands:
---enable-url OR
-    --disable-url OR
-        --set-pools-json <filename.json>
---switchpool
---range OR
-    --cidr 
+| Command | Description |
+| --- | --- |
+| `--enable-url` | --enable-url "stratum+tcp://ca.vipor.net:5045" |
+| `--disable-url` | --disable-url "stratum+tcp://ca.vipor.net:5045" |
+| `--set-pools-json` | --set-pools-json <filename.json> |
+| `--switchpool` | Trigger via telnet on (remote) localhost:4068 |
+| `--range` | --range 10.10.10.100-10.10.10.200 |
+| `--cidr` | --range 10.10.10.0/24 |
 
 Usage examples:
 
