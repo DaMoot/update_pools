@@ -5,8 +5,8 @@ Bulk update the 'pools' key inside Verus ccminer config across multiple hosts us
  - switchpool trigger via telnet on localhost:4068 (remote) - Must have api enabled. Script should
  - concurrent SSH connections with ThreadPoolExecutor (default workers=10)
 
-REQUIRES (on target system): telnet
-REQUIRES (on system running script): python and paramiko
+REQUIRES (on target system): telnet\n\n
+REQUIRES (on system running script): python and paramiko\n\n
 
 | Command | Description |
 | --- | --- |
