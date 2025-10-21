@@ -1,4 +1,4 @@
-# update_pools
+# update_pools_parallelv2.py
 Bulk update the 'pools' key inside Verus ccminer config across multiple hosts using SSH and a common password. Features include:
  - remote config backup w/pruning. Will create a folder and store 5 versions of your last changed config with the original version saved as config.json.orig
  - Disable or enable a pool URL or replace the whole pools list from a JSON file
