@@ -29,6 +29,7 @@ Usage examples:
   python3 update_pools_parallel.py --range 10.10.10.120-10.10.10.130 --username root --password secret --switch-pool
 
 Format your new_pools.json just like the pools: block including the closing brackets. [{ }] ie:
+````
 [{
             "name": "VIPOR-SOLO-West",
             "url": "stratum+tcp://usw.vipor.net:5045",
@@ -39,3 +40,4 @@ Format your new_pools.json just like the pools: block including the closing brac
             "name": "VIPOR-SOLO-SouthWest",
  ...
         }]
+````
