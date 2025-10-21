@@ -1,0 +1,24 @@
+[{
+            "name": "VIPOR-SOLO-West",
+            "url": "stratum+tcp://usw.vipor.net:5045",
+            "timeout": 60,
+            "disabled": 0
+        },
+        {
+            "name": "VIPOR-SOLO-SouthWest",
+            "url": "stratum+tcp://ussw.vipor.net:5045",
+            "timeout": 60,
+            "disabled": 0
+        },
+        {
+            "name": "VIPOR-SOLO-NorthEast",
+            "url": "stratum+tcp://us.vipor.net:5045",
+            "timeout": 60,
+            "disabled": 0
+        },
+        {
+            "name": "VIPOR-SOLO-SouthEastt",
+            "url": "stratum+tcp://usse.vipor.net:5045",
+            "timeout": 60,
+            "disabled": 0
+        }]
