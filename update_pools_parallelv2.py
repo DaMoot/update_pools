@@ -17,7 +17,7 @@ Bulk update the 'pools' key inside Verus ccminer config across multiple hosts us
 | `--enable-url` | --enable-url "stratum+tcp://ca.vipor.net:5045" | or |
 | `--disable-url` | --disable-url "stratum+tcp://ca.vipor.net:5045" | or |
 | `--set-pools-json` | --set-pools-json <pools.json> |
-| `--switchpool` | Trigger via telnet on (remote) localhost:4068 |
+| `--switch-pool` | Trigger via telnet on (remote) localhost:4068 |
 | `--range` | --range 10.10.10.100-10.10.10.200 | or |
 | `--cidr` | --range 10.10.10.0/24 |
 
@@ -343,3 +343,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
