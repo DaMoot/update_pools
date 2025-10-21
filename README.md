@@ -5,6 +5,7 @@ Bulk update the 'pools' key inside Verus ccminer config across multiple hosts us
  - switchpool trigger via telnet on localhost:4068 (remote) - Must have api enabled. Script will function minus switchpool if no api access.
  - Concurrent SSH connections (default workers=10)
  - Only tested on Linux/Termux- Written for interacting with Termux specifically so default ssh port is 8022.
+ - Sorry ca.vipor.net for using you specifically in my examples!
 
 **REQUIRES (on system running script):** python and paramiko
 
